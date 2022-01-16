@@ -3,7 +3,7 @@
 *.SchDocPreview
 *.PcbDocPreview
 __Previews
-*.PrjPcbStructure
+
 *.Dat
 *.REP 
 *.TLT
