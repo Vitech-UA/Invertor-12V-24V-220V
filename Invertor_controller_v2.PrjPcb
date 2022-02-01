@@ -292,6 +292,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YRVPJKRS
 
+[Document16]
+DocumentPath=Buttons_Buzzer.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=14
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RXRXFZRZ
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
