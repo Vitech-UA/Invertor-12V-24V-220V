@@ -13,3 +13,9 @@
 # Версія на 12В. Без зарядного пристрою.
 ![photo_2023-12-11_21-49-50 (2)](https://github.com/Vitech-UA/Invertor-12V-24V-220V/assets/74230330/76cb7e51-d46e-410d-b677-c9d59d7041d4)
 ![photo_2023-12-11_21-49-50](https://github.com/Vitech-UA/Invertor-12V-24V-220V/assets/74230330/6c7a2fd2-0d2d-49fa-aca3-b9555127cb4c)
+
+# Допрацювання плати EGS002
+![Допрацювання EGS002](https://github.com/Vitech-UA/Invertor-12V-24V-220V/assets/74230330/66f78bc1-6fc5-4f80-a6ee-119a3d597510)
+
+# Виготовлені прилади
+![photo_2023-12-17_20-40-12 (2)](https://github.com/Vitech-UA/Invertor-12V-24V-220V/assets/74230330/8a661620-33b9-454e-aa9c-b5b1b9bbf405)
