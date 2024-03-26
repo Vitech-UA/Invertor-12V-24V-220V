@@ -15,6 +15,7 @@ __Previews
 *.SLDPRT
 *.SLDASM
 *.$$$
+*.mp4
 
 #useless dirs
 Project Outputs for *
