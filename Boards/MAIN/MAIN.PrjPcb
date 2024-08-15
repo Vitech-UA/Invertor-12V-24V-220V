@@ -169,6 +169,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TGYILPQL
 
+[Document8]
+DocumentPath=EXTERNAL_VOLTAGE_DETECTOR.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HWFKQLMQ
+
 [Parameter1]
 Name=__Project_Template_Version
 Value=1.0.2
@@ -243,15 +260,15 @@ Value=1
 
 [Parameter19]
 Name=Project_ID
-Value=621
+Value=001
 
 [Parameter20]
 Name=Product_Name
-Value=DEV.Tnn.BRD
+Value=INVERTOR
 
 [Parameter21]
 Name=Authors
-Value=
+Value=Starovit
 
 [Configuration1]
 Name=Sources
