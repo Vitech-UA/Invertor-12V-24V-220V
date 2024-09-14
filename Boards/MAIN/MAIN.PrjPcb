@@ -203,6 +203,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WOHESJQK
 
+[Document10]
+DocumentPath=BC817_OC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UBWKUBZR
+
 [Parameter1]
 Name=__Project_Template_Version
 Value=1.0.2
