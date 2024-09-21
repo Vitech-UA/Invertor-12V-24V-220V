@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=5f5c71b9-b0da-4620-8f22-59eb916871e9
 
 [Document3]
-DocumentPath=..\Boards\MAIN\PWB.PrjPcb
+DocumentPath=..\Boards\PWB\PWB.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -102,9 +102,7 @@ DocumentUniqueId=
 VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
-ProjectName=MAIN.PrjPcb
-VaultURL=
-VaultName=
+ProjectName=PWB.PrjPcb
 
 [Parameter1]
 Name=_Project_Template_Version

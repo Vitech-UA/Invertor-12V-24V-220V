@@ -204,7 +204,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WOHESJQK
 
 [Document10]
-DocumentPath=BC817_OC.SchDoc
+DocumentPath=DTC_NPN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
