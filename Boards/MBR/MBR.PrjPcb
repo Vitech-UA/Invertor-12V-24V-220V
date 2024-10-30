@@ -51,13 +51,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=DEV.Tnn.BRD.621.SchDoc
+DocumentPath=MBR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -68,7 +68,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NDWBJVKU
 
 [Document2]
-DocumentPath=DEV.Tnn.BRD.621_2Layer.PcbDoc
+DocumentPath=MBR.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,89 +101,106 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document4]
+DocumentPath=STEP_DOWN_3V3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MUWHPYSF
+
 [Parameter1]
 Name=__Project_Template_Version
 Value=1.0.2
 
 [Parameter2]
-Name=_Amount_Boards_Per_Stand
-Value=1
-
-[Parameter3]
-Name=_PCB_Order_Accuracy
-Value=0.2mm / 8mil
-
-[Parameter4]
-Name=_PCB_Order_BoardOutlineLayer
-Value=Mechanical1 (GM1)
-
-[Parameter5]
-Name=_PCB_Order_Cooper
-Value=1oz / 35um
-
-[Parameter6]
-Name=_PCB_Order_ElectricTest
-Value=Necessarily for 100% samples
-
-[Parameter7]
-Name=_PCB_Order_Finish
-Value=HASL
-
-[Parameter8]
-Name=_PCB_Order_LayersCnt
-Value=2
-
-[Parameter9]
-Name=_PCB_Order_Mask
-Value=on both sides
-
-[Parameter10]
-Name=_PCB_Order_MaskColor
-Value=Green / Yellow
-
-[Parameter11]
-Name=_PCB_Order_Material
-Value=FR-4
-
-[Parameter12]
-Name=_PCB_Order_MinHole
-Value=0.3 mm
-
-[Parameter13]
-Name=_PCB_Order_ProductionTime
-Value=2 weeks
-
-[Parameter14]
-Name=_PCB_Order_Silk
-Value=No
-
-[Parameter15]
-Name=_PCB_Order_SilkColor
-Value=No
-
-[Parameter16]
-Name=_PCB_Order_Size
-Value=0 x 0 mm
-
-[Parameter17]
 Name=_PCB_Order_Thickness
 Value=1.6 mm
 
+[Parameter3]
+Name=_PCB_Order_Size
+Value=0 x 0 mm
+
+[Parameter4]
+Name=_PCB_Order_SilkColor
+Value=No
+
+[Parameter5]
+Name=_PCB_Order_Silk
+Value=No
+
+[Parameter6]
+Name=_PCB_Order_ProductionTime
+Value=2 weeks
+
+[Parameter7]
+Name=_PCB_Order_MinHole
+Value=0.3 mm
+
+[Parameter8]
+Name=_PCB_Order_Material
+Value=FR-4
+
+[Parameter9]
+Name=_PCB_Order_MaskColor
+Value=Green / Yellow
+
+[Parameter10]
+Name=_PCB_Order_Mask
+Value=on both sides
+
+[Parameter11]
+Name=_PCB_Order_LayersCnt
+Value=2
+
+[Parameter12]
+Name=_PCB_Order_Finish
+Value=HASL
+
+[Parameter13]
+Name=_PCB_Order_ElectricTest
+Value=Necessarily for 100% samples
+
+[Parameter14]
+Name=_PCB_Order_Cooper
+Value=1oz / 35um
+
+[Parameter15]
+Name=_PCB_Order_BoardOutlineLayer
+Value=Mechanical1 (GM1)
+
+[Parameter16]
+Name=_PCB_Order_Accuracy
+Value=0.2mm / 8mil
+
+[Parameter17]
+Name=_Amount_Boards_Per_Stand
+Value=1
+
 [Parameter18]
-Name=Authors
-Value=
-
-[Parameter19]
-Name=Product_Name
-Value=DEV.Tnn.BRD
-
-[Parameter20]
-Name=Project_ID
-Value=621
-
-[Parameter21]
 Name=Project_Version
 Value=1
+
+[Parameter19]
+Name=Project_ID
+Value=001
+
+[Parameter20]
+Name=Product_Name
+Value=INVERTOR
+
+[Parameter21]
+Name=Authors
+Value=Vitech-ua
 
 [Configuration1]
 Name=Sources
@@ -674,11 +691,41 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=MathWorks
+OutputName17=MathWorks (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=Web ReviewOutputName
+OutputName18=Web Review Data
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
