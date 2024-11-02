@@ -118,89 +118,123 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MUWHPYSF
 
+[Document5]
+DocumentPath=EEPROM.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CWLSUQWK
+
+[Document6]
+DocumentPath=LDO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WEUSMIUC
+
 [Parameter1]
 Name=__Project_Template_Version
 Value=1.0.2
 
 [Parameter2]
-Name=_PCB_Order_Thickness
-Value=1.6 mm
-
-[Parameter3]
-Name=_PCB_Order_Size
-Value=0 x 0 mm
-
-[Parameter4]
-Name=_PCB_Order_SilkColor
-Value=No
-
-[Parameter5]
-Name=_PCB_Order_Silk
-Value=No
-
-[Parameter6]
-Name=_PCB_Order_ProductionTime
-Value=2 weeks
-
-[Parameter7]
-Name=_PCB_Order_MinHole
-Value=0.3 mm
-
-[Parameter8]
-Name=_PCB_Order_Material
-Value=FR-4
-
-[Parameter9]
-Name=_PCB_Order_MaskColor
-Value=Green / Yellow
-
-[Parameter10]
-Name=_PCB_Order_Mask
-Value=on both sides
-
-[Parameter11]
-Name=_PCB_Order_LayersCnt
-Value=2
-
-[Parameter12]
-Name=_PCB_Order_Finish
-Value=HASL
-
-[Parameter13]
-Name=_PCB_Order_ElectricTest
-Value=Necessarily for 100% samples
-
-[Parameter14]
-Name=_PCB_Order_Cooper
-Value=1oz / 35um
-
-[Parameter15]
-Name=_PCB_Order_BoardOutlineLayer
-Value=Mechanical1 (GM1)
-
-[Parameter16]
-Name=_PCB_Order_Accuracy
-Value=0.2mm / 8mil
-
-[Parameter17]
 Name=_Amount_Boards_Per_Stand
 Value=1
 
+[Parameter3]
+Name=_PCB_Order_Accuracy
+Value=0.2mm / 8mil
+
+[Parameter4]
+Name=_PCB_Order_BoardOutlineLayer
+Value=Mechanical1 (GM1)
+
+[Parameter5]
+Name=_PCB_Order_Cooper
+Value=1oz / 35um
+
+[Parameter6]
+Name=_PCB_Order_ElectricTest
+Value=Necessarily for 100% samples
+
+[Parameter7]
+Name=_PCB_Order_Finish
+Value=HASL
+
+[Parameter8]
+Name=_PCB_Order_LayersCnt
+Value=2
+
+[Parameter9]
+Name=_PCB_Order_Mask
+Value=on both sides
+
+[Parameter10]
+Name=_PCB_Order_MaskColor
+Value=Green / Yellow
+
+[Parameter11]
+Name=_PCB_Order_Material
+Value=FR-4
+
+[Parameter12]
+Name=_PCB_Order_MinHole
+Value=0.3 mm
+
+[Parameter13]
+Name=_PCB_Order_ProductionTime
+Value=2 weeks
+
+[Parameter14]
+Name=_PCB_Order_Silk
+Value=No
+
+[Parameter15]
+Name=_PCB_Order_SilkColor
+Value=No
+
+[Parameter16]
+Name=_PCB_Order_Size
+Value=0 x 0 mm
+
+[Parameter17]
+Name=_PCB_Order_Thickness
+Value=1.6 mm
+
 [Parameter18]
-Name=Project_Version
-Value=1
+Name=Authors
+Value=Vitech-ua
 
 [Parameter19]
-Name=Project_ID
-Value=001
-
-[Parameter20]
 Name=Product_Name
 Value=INVERTOR
 
+[Parameter20]
+Name=Project_ID
+Value=001
+
 [Parameter21]
-Name=Authors
-Value=Vitech-ua
+Name=Project_Version
+Value=1
 
 [Configuration1]
 Name=Sources
@@ -341,7 +375,7 @@ OutputDefault1=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -395,7 +429,9 @@ OutputName9=Schematic Prints
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=D:\RADIO_ELECTRONICS\cxem\Сила + Блоки живлення + Інвертори\Інвертор 12(24) - 220В на трансформаторі 50Гц 2023\Boards\MBR\I2C_GPIO_MCP23017.SchDoc
 OutputType10=SimView Print
 OutputName10=SimView Prints
 OutputDocumentPath10=
@@ -1140,10 +1176,34 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=AjaxLibrary.DbLib/ic
+ComponentDesignItemID0=24LC128-E/SN
+ComponentSymbolReference0=24LC128-E/SN
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=AjaxLibrary.DbLib/ic
+ComponentDesignItemID1=MCP23017T-E/SO
+ComponentSymbolReference1=MCP23017T-E/SO
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=AjaxLibrary.DbLib/misc
+ComponentDesignItemID2=UG-12BT4005P
+ComponentSymbolReference2=UG-12BT4005P
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=AjaxLibrary.DbLib/modules
+ComponentDesignItemID3=1.3-TFT-LCD-SHIELD
+ComponentSymbolReference3=1.3-TFT-LCD-SHIELD
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1157,6 +1217,66 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Ajax_1C_ID
+ParameterUpdate0=1
+ParameterName1=Ajax_1C_PN
+ParameterUpdate1=1
+ParameterName2=Ajax_1С_Status
+ParameterUpdate2=1
+ParameterName3=Comment
+ParameterUpdate3=1
+ParameterName4=Component Kind
+ParameterUpdate4=1
+ParameterName5=Component Status
+ParameterUpdate5=1
+ParameterName6=Component Type
+ParameterUpdate6=1
+ParameterName7=ComponentLink1Description
+ParameterUpdate7=1
+ParameterName8=ComponentLink1URL
+ParameterUpdate8=1
+ParameterName9=Description
+ParameterUpdate9=1
+ParameterName10=GUID_1C
+ParameterUpdate10=1
+ParameterName11=Library Reference
+ParameterUpdate11=1
+ParameterName12=Lifecycle
+ParameterUpdate12=1
+ParameterName13=Manufacturer
+ParameterUpdate13=1
+ParameterName14=Package
+ParameterUpdate14=1
+ParameterName15=Part Number
+ParameterUpdate15=1
+ParameterName16=Part Type
+ParameterUpdate16=1
+ParameterName17=Price
+ParameterUpdate17=1
+ParameterName18=Replacement
+ParameterUpdate18=1
+ParameterName19=Standard Lead Time
+ParameterUpdate19=1
+ParameterName20=Supplier 1
+ParameterUpdate20=1
+ParameterName21=Supplier Part Number 1
+ParameterUpdate21=1
+ParameterName22=Temperature Range
+ParameterUpdate22=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=1.3-TFT-LCD-SHIELD
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=SOIC-28N_N
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=SOIC-8_W3.9MM
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=UG-12BT4005P
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
