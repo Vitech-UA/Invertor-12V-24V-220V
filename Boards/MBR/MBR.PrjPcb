@@ -169,6 +169,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDDKXOQR
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MBR\Design Rule Check - MBR.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=__Project_Template_Version
 Value=1.0.2
