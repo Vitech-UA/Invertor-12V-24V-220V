@@ -237,6 +237,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=RD.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AETSKYJJ
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PWB\Design Rule Check - main.html
 DItemRevisionGUID=
@@ -250,84 +267,84 @@ Name=__Project_Template_Version
 Value=1.0.2
 
 [Parameter2]
-Name=_PCB_Order_Thickness
-Value=1.6 mm
-
-[Parameter3]
-Name=_PCB_Order_Size
-Value=0 x 0 mm
-
-[Parameter4]
-Name=_PCB_Order_SilkColor
-Value=No
-
-[Parameter5]
-Name=_PCB_Order_Silk
-Value=No
-
-[Parameter6]
-Name=_PCB_Order_ProductionTime
-Value=2 weeks
-
-[Parameter7]
-Name=_PCB_Order_MinHole
-Value=0.3 mm
-
-[Parameter8]
-Name=_PCB_Order_Material
-Value=FR-4
-
-[Parameter9]
-Name=_PCB_Order_MaskColor
-Value=Green / Yellow
-
-[Parameter10]
-Name=_PCB_Order_Mask
-Value=on both sides
-
-[Parameter11]
-Name=_PCB_Order_LayersCnt
-Value=2
-
-[Parameter12]
-Name=_PCB_Order_Finish
-Value=HASL
-
-[Parameter13]
-Name=_PCB_Order_ElectricTest
-Value=Necessarily for 100% samples
-
-[Parameter14]
-Name=_PCB_Order_Cooper
-Value=1oz / 35um
-
-[Parameter15]
-Name=_PCB_Order_BoardOutlineLayer
-Value=Mechanical1 (GM1)
-
-[Parameter16]
-Name=_PCB_Order_Accuracy
-Value=0.2mm / 8mil
-
-[Parameter17]
 Name=_Amount_Boards_Per_Stand
 Value=1
 
+[Parameter3]
+Name=_PCB_Order_Accuracy
+Value=0.2mm / 8mil
+
+[Parameter4]
+Name=_PCB_Order_BoardOutlineLayer
+Value=Mechanical1 (GM1)
+
+[Parameter5]
+Name=_PCB_Order_Cooper
+Value=1oz / 35um
+
+[Parameter6]
+Name=_PCB_Order_ElectricTest
+Value=Necessarily for 100% samples
+
+[Parameter7]
+Name=_PCB_Order_Finish
+Value=HASL
+
+[Parameter8]
+Name=_PCB_Order_LayersCnt
+Value=2
+
+[Parameter9]
+Name=_PCB_Order_Mask
+Value=on both sides
+
+[Parameter10]
+Name=_PCB_Order_MaskColor
+Value=Green / Yellow
+
+[Parameter11]
+Name=_PCB_Order_Material
+Value=FR-4
+
+[Parameter12]
+Name=_PCB_Order_MinHole
+Value=0.3 mm
+
+[Parameter13]
+Name=_PCB_Order_ProductionTime
+Value=2 weeks
+
+[Parameter14]
+Name=_PCB_Order_Silk
+Value=No
+
+[Parameter15]
+Name=_PCB_Order_SilkColor
+Value=No
+
+[Parameter16]
+Name=_PCB_Order_Size
+Value=0 x 0 mm
+
+[Parameter17]
+Name=_PCB_Order_Thickness
+Value=1.6 mm
+
 [Parameter18]
-Name=Project_Version
-Value=3
+Name=Authors
+Value=Starovit
 
 [Parameter19]
-Name=Project_ID
-Value=001
-
-[Parameter20]
 Name=Product_Name
 Value=INVERTOR
 
+[Parameter20]
+Name=Project_ID
+Value=001
+
 [Parameter21]
-Name=Authors
-Value=Starovit
+Name=Project_Version
+Value=4
 
 [Configuration1]
 Name=Sources
