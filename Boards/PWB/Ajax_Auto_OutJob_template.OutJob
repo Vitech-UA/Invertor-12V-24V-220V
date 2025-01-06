@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Ajax_Auto_OutJob_template.OutJob
 Description=
-TargetOutputMedium=6XX_2_PCB_Gerber
+TargetOutputMedium=6XX_1_BOM_Components
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -229,7 +229,7 @@ OutputName6=Gerber Files
 OutputCategory6=Fabrication
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -251,7 +251,7 @@ OutputName7=NC Drill Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -273,7 +273,7 @@ OutputName8=Bill of Materials
 OutputCategory8=Report
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=1
@@ -292,21 +292,23 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration8_Name1=ColumnNameFormat
 Configuration8_Item1=CaptionAsName
 Configuration8_Name2=Filter
-Configuration8_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A21000000010000000001020000004E4307000000436F6D6D656E740112020000004E0043000000
+Configuration8_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A1E000000010000000001020000004E43040000004E616D650112020000004E0043000000
 Configuration8_Name3=FilterString
 Configuration8_Item3=Not ([Comment] = 'NC')
 Configuration8_Name4=FilterString_Base
 Configuration8_Item4=Not ([Comment] = 'NC')
-Configuration8_Name5=General
-Configuration8_Item5=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\auto_templates\Altium_Templates\Ajax_Auto_BOM_template.xltx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1422|FormHeight=839|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
-Configuration8_Name6=GroupOrder
-Configuration8_Item6=Comment=True|Footprint=True|Tolerance=True
-Configuration8_Name7=OutputConfigurationParameter1
-Configuration8_Item7==False|SupplierCurrency=<none>
-Configuration8_Name8=SortOrder
-Configuration8_Item8=Designator=Up
-Configuration8_Name9=VisibleOrder
-Configuration8_Item9=Designator=44|Comment=99|Description=223|Footprint=45|LibRef=34|Quantity=34|Brand=34|Description(type)=77|Part Number=27|Replacement=27|Temperature of soldering=27|Tolerance=27|Country=27|Package=25|Datasheet=100
+Configuration8_Name5=FilterString_Flat
+Configuration8_Item5=Not ([Comment] = 'NC')
+Configuration8_Name6=General
+Configuration8_Item6=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD22\Templates\Ajax_Auto_BOM_template.xltx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1422|FormHeight=839|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration8_Name7=GroupOrder
+Configuration8_Item7=Comment=True|Footprint=True|Tolerance=True
+Configuration8_Name8=OutputConfigurationParameter1
+Configuration8_Item8==False|SupplierCurrency=<none>
+Configuration8_Name9=SortOrder
+Configuration8_Item9=Designator=Up
+Configuration8_Name10=VisibleOrder
+Configuration8_Item10=Designator=44|Comment=99|Description=223|Footprint=45|LibRef=34|Quantity=34|Brand=34|Description(type)=77|Part Number=27|Replacement=27|Temperature of soldering=27|Tolerance=27|Country=27|Package=25|Datasheet=100
 OutputType9=Pick Place
 OutputName9=Generates pick and place files
 OutputCategory9=Assembly
@@ -752,7 +754,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Public\Documents\Altium\auto_templates\Default_AD_project\Docs\DEV.Tnn.BRD.621.v1\
+OutputFilePath3=D:\RADIO_ELECTRONICS\cxem\Сила + Блоки живлення + Інвертори\Інвертор 12(24) - 220В на трансформаторі 50Гц 2023\Docs\PWB.v4\
 ReleaseManaged3=0
 OutputBasePath3=..\..\Docs\
 OutputPathMedia3==ProjectName+'.v'+Project_Version
@@ -941,7 +943,7 @@ OpenOutput13=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\MyRepo\auto_templates\Default_AD_project\Boards\XXX.TYY.ZZZ.700\.\v.1.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Public\Documents\Altium\auto_templates\Default_AD_project\Docs\DEV.Tnn.BRD.621.v1\
+RelativeOutputPath3=D:\RADIO_ELECTRONICS\cxem\Сила + Блоки живлення + Інвертори\Інвертор 12(24) - 220В на трансформаторі 50Гц 2023\Docs\PWB.v4\
 OpenOutputs3=1
 AddToProject3=0
 TimestampFolder3=0
