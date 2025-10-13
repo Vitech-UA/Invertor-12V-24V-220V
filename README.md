@@ -3,11 +3,11 @@
 
 ## Проєкт інвертора 12-220 з чистою синусоїдою.
 
-### **EG8010 — генерація PWM / моделювання синуса ** [EG8010 Datashhet](https://www.skytech.ir/DownLoad/File/2558_EG8010.pdf)
+### **EG8010 — генерація PWM / моделювання синуса **  [EG8010 Datashhet](https://www.skytech.ir/DownLoad/File/2558_EG8010.pdf)
 - Формує PWM-сигнали для управління ключами MOSFET згідно з синусоїдальною кривою.
 - Параметри (амплітуда, фаза) налаштовуються через STM32.
 
-### **STM32F103 — керуючий мікроконтролер **[EG8010 Datashhet](https://www.skytech.ir/DownLoad/File/2558_EG8010.pdf) ** **
+### **STM32F103 — керуючий мікроконтролер **  [STM32F103CBT6 info](https://www.st.com/en/microcontrollers-microprocessors/stm32f103/documentation.html)
 - Зчитує дані: напругу DC, струм DC, потужність з PZEM-004T.  
 - Керує зарядом акумулятора — вмикає/вимикає зарядний пристрій.  
 - Керує перемиканням між мережею та інвертором.  
