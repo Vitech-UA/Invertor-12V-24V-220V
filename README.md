@@ -72,6 +72,12 @@
 - Гальванічна ізоляція драйверів (HCPL-3120)
 
 ---
+## 💾 Репозиторій прошивки STM32
 
+Прошивка контролера STM32 доступна у відкритому доступі:  
+👉 **[invertor_controller_code — GitHub Repository](https://github.com/Vitech-UA/invertor_controller_code)**  
+
+В репозиторії міститься:
+- Повний вихідний код на **HAL (STM32Cube)** 
 
 
