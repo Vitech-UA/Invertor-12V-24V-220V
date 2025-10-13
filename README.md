@@ -74,7 +74,9 @@
 ---
 
 ### 💀 Ціна помилок при відладці  
-![Спалені транзистори](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/FUCKUP.jpg)
+<p align="center">
+  <img src="https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/FUCKUP.jpg" width="50%" alt="Спалені транзистори">
+</p>
 
 ---
 
