@@ -3,7 +3,7 @@
 
 ## Проєкт інвертора 12-220 з чистою синусоїдою.
 
-### **EG8010 — генерація PWM / моделювання синуса **[Datashhet]([https://github.com/Vitech-UA/invertor_controller_code](https://www.skytech.ir/DownLoad/File/2558_EG8010.pdf))** **
+### **EG8010 — генерація PWM / моделювання синуса **[Datashhet](https://www.skytech.ir/DownLoad/File/2558_EG8010.pdf) **
 - Формує PWM-сигнали для управління ключами MOSFET згідно з синусоїдальною кривою.
 - Параметри (амплітуда, фаза) налаштовуються через STM32.
 
