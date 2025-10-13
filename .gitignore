@@ -1,0 +1,43 @@
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.stp
+*.step
+*.SLDPRT
+*.SLDASM
+*.$$$
+*.mp4
+
+#useless dirs
+Project Outputs for *
+Project Logs for *
+Project/Outputs
+Project/Logs
+Project/Docs
+/Docs/**
+/Boards/*/Docs
+History
+MultyBoard/Docs
+~cxem.dch~
+~pcb.dip~
+v3/Симуляція схеми захисту від просадки батареї.ms14 (Security copy)
+Project Backups
+v3/перший тест з котлом.mp4
+v1/перший тест з котлом.mp4
+v0_media/перший тест з котлом.mp4
+v2/~pcb_v2.dip~
+v2/12V/~cxem_v2.dch~
+v2/24V/~pcb_v2.dip~
+v2_media
+Моделі 3D
+~WRL0100.tmp
+Зауваження.docx
