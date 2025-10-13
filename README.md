@@ -40,15 +40,7 @@
 
 ## 📷 Фото та ілюстрації
 
-### Індикація  
-![Показометр](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80.jpg)
 
----
-
-### Ціна помилок при відладці та зборці( 
-![Спалені транзистори](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/FUCKUP.jpg)
-
----
 
 ### Процес зборки й налагодження  
 
@@ -59,7 +51,16 @@
 | Налагодження | ![3](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/photo_3_2025-10-14_00-37-51.jpg) |
 | Налагодження | ![4](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/photo_4_2025-10-14_00-37-51.jpg) |
 | Силова плата | ![5](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/photo_5_2025-10-14_00-37-51.jpg) |
+---
+### Індикація  
+![Показометр](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80.jpg)
 
+---
+
+### Ціна помилок при відладці та зборці( 
+![Спалені транзистори](https://github.com/Vitech-UA/Invertor-12V-24V-220V/blob/main/MEDIA/FUCKUP.jpg)
+
+---
 ---
 
 ## ⚡ Захисти та безпека
